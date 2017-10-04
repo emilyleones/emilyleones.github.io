@@ -1,0 +1,127 @@
+body {
+    font-family: "Open Sans";
+    color: #000;
+    text-align: center;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.image--circular {
+    margin-top: 10%;
+    display: inline-block;
+    position: center;
+    width: 12.5em;
+    height: 12.5em;
+    overflow: hidden;
+    border-radius: 50%;
+    border-color: #000;
+    border-style: solid;
+}
+
+.image--circular img {
+    width: auto;
+    height: 120%;
+    margin-left: -2em;
+    margin-top: -1.5em;
+}
+
+.title {
+    font-family: 'Pacifico';
+    font-size: 3em;
+    text-align: center;
+    padding: 0 0 0.2em 0;
+    color: #000;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    padding: 0 1em;
+}
+
+.content {
+    display: inline-block;
+    width: 50%;
+}
+
+html {
+    height: 100%;
+    background: #fff; /* Default */
+    background: -webkit-linear-gradient(to right, #dad4ff 0%, #dad4ec 1%, #f3e7e1 100%); /* Safari 5.1+ */
+    background: -o-linear-gradient(to right, #dad4ff 0%, #dad4ec 1%, #f3e7e9 100%); /* Opera 11.1+ */
+    background: -moz-linear-gradient(to right, #dad4ff 0%, #dad4ec 1%, #f3e7e9 100%); /* Firefox 3.6+ */
+    background: linear-gradient(to right, #dad4ff 0%, #dad4ec 1%, #f3e7e9 100%); /* Standard */
+}
+
+ul {
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.fa {
+    padding: 0.75em 0.75em;
+    border-radius: 30em;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+}
+
+.fa-facebook {
+    padding: 0.75em 0.93em;
+}
+
+.fa-facebook:hover {
+    background-color: #3b5998;
+}
+
+.fa-github:hover {
+    background-color: #000;
+}
+
+.fa-twitter:hover {
+    background-color: #55acee;
+}
+
+.fa-instagram:hover {
+    background: -webkit-radial-gradient(circle at 30% 100%, #fed373 5%, #e95950 30%, #d92e7f 60%, #9b36ba 85%, #515edf);/* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle at 30% 100%, #fed373 5%, #e95950 30%, #d92e7f 60%, #9b36ba 85%, #515edf);/* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(circle at 30% 100%, #fed373 5%, #e95950 30%, #d92e7f 60%, #9b36ba 85%, #515edf);/* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle at 30% 100%, #fed373 5%, #e95950 30%, #d92e7f 60%, #9b36ba 85%, #515edf);/* Standard syntax (must be last) */
+}
+
+.fa-spotify:hover {
+    background-color: #00e461;
+}
+
+/*w3schools.com CSS Tooltip */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #000;
+    text-align: center;
+    width: 10em;
+    padding: .5em 0;
+    border-radius: .5em;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
