@@ -36,14 +36,13 @@ a:hover {
     font-family: 'Pacifico';
     font-size: 3em;
     text-align: center;
-    padding: 0 0 0.5em 0;
     color: #000;
 }
 
 .navigation {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1.5em 0 0.5em 0;
     display: flex;
     justify-content: center;
 }
@@ -53,9 +52,9 @@ a:hover {
 }
 
 .content {
-    line-height: 1.2em;
+    line-height: 1.5em;
     display: inline-block;
-    width: 30%;
+    width: 70%;
 }
 
 html {
